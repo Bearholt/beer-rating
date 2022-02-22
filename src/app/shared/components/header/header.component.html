@@ -1,0 +1,9 @@
+<nav class="h-14 w-full bg-gray-800">
+	<div class="flex h-full justify-between items-center px-20">
+		<button class="text-2xl text-gray-300" routerLink="">Beer Rating</button>
+
+		<button (click)="getAuthService.logout()" class="text-2xl text-gray-300">
+			{{ getAuthService.userLoggedIn() ? 'Logout' : '' }}
+		</button>
+	</div>
+</nav>

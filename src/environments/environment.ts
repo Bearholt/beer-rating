@@ -4,6 +4,11 @@
 
 export const environment = {
 	production: false,
+	supabase: {
+		url: 'https://svvspxigapsuoavoijzr.supabase.co',
+		publicApiKey:
+			'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN2dnNweGlnYXBzdW9hdm9panpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDUxMzIxODgsImV4cCI6MTk2MDcwODE4OH0.pT-2e9totWJv-7gKWIP6_zMXWx2TH0Ik70V5s0Mrv70',
+	},
 };
 
 /*
